@@ -4,4 +4,5 @@ module projeto_javafx_jdbc {
 	requires javafx.fxml;
 	
 	opens application;
+	opens gui;
 }
